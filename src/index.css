@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #f2f2f2;
+  font-family: 'Roboto', 'Open Sans', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
+}
+
+a,
+button,
+a *,
+button *,
+*[role='button'],
+*[role='button'] * {
+  text-decoration: none !important;
+  cursor: url('assets/clickable.cur'), auto !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  cursor: url('assets/normal.cur'), auto;
+}
+
+*:hover {
+  cursor: url('assets/normal.cur'), auto;
+}
+
+/* [type=button]{
+    -webkit-appearance: none !important;
+  } */

@@ -1,0 +1,367 @@
+{
+  "Sonic": {
+    "bigLink": "b/ba/Sonic_SSBU.png/609px-Sonic_SSBU.png",
+    "name": "Sonic",
+    "banner": "/assets_v2/img/fighter/thumb_h/sonic.png"
+  },
+  "Bayonetta": {
+    "bigLink": "7/7c/Bayonetta_SSBU.png/611px-Bayonetta_SSBU.png",
+    "name": "Bayonetta",
+    "banner": "/assets_v2/img/fighter/thumb_h/bayonetta.png"
+  },
+  "Wolf": {
+    "bigLink": "8/8a/Wolf_SSBU.png/647px-Wolf_SSBU.png",
+    "name": "Wolf",
+    "banner": "/assets_v2/img/fighter/thumb_h/wolf.png"
+  },
+  "Ken": {
+    "bigLink": "f/f6/Ken_SSBU.png/600px-Ken_SSBU.png",
+    "name": "Ken",
+    "banner": "/assets_v2/img/fighter/thumb_h/ken.png"
+  },
+  "Jigglypuff": {
+    "bigLink": "6/6a/Jigglypuff_SSBU.png/600px-Jigglypuff_SSBU.png",
+    "name": "Jigglypuff",
+    "banner": "/assets_v2/img/fighter/thumb_h/jigglypuff.png"
+  },
+  "Falco": {
+    "bigLink": "8/80/Falco_SSBU.png/600px-Falco_SSBU.png",
+    "name": "Falco",
+    "banner": "/assets_v2/img/fighter/thumb_h/falco.png"
+  },
+  "Diddy Kong": {
+    "bigLink": "a/a7/Diddy_Kong_SSBU.png/579px-Diddy_Kong_SSBU.png",
+    "name": "Diddy Kong",
+    "banner": "/assets_v2/img/fighter/thumb_h/diddy kong.png"
+  },
+  "Mario": {
+    "bigLink": "4/44/Mario_SSBU.png/600px-Mario_SSBU.png",
+    "name": "Mario",
+    "banner": "/assets_v2/img/fighter/thumb_h/mario.png"
+  },
+  "Dark Pit": {
+    "bigLink": "0/09/Dark_Pit_SSBU.png/568px-Dark_Pit_SSBU.png",
+    "name": "Dark Pit",
+    "banner": "/assets_v2/img/fighter/thumb_h/dark pit.png"
+  },
+  "Chrom": {
+    "bigLink": "5/57/Chrom_SSBU.png/510px-Chrom_SSBU.png",
+    "name": "Chrom",
+    "banner": "/assets_v2/img/fighter/thumb_h/chrom.png"
+  },
+  "Yoshi": {
+    "bigLink": "8/8d/Yoshi_SSBU.png/600px-Yoshi_SSBU.png",
+    "name": "Yoshi",
+    "banner": "/assets_v2/img/fighter/thumb_h/yoshi.png"
+  },
+  "Wii Fit Trainer": {
+    "bigLink": "f/ff/Wii_Fit_Trainer_SSBU.png/600px-Wii_Fit_Trainer_SSBU.png",
+    "name": "Wii Fit Trainer",
+    "banner": "/assets_v2/img/fighter/thumb_h/wii fit trainer.png"
+  },
+  "Richter": {
+    "bigLink": "c/c2/Richter_SSBU.png/600px-Richter_SSBU.png",
+    "name": "Richter",
+    "banner": "/assets_v2/img/fighter/thumb_h/richter.png"
+  },
+  "Donkey Kong": {
+    "bigLink": "c/c9/Donkey_Kong_SSBU.png/600px-Donkey_Kong_SSBU.png",
+    "name": "Donkey Kong",
+    "banner": "/assets_v2/img/fighter/thumb_h/donkey kong.png"
+  },
+  "Ryu": {
+    "bigLink": "6/61/Ryu_SSBU.png/600px-Ryu_SSBU.png",
+    "name": "Ryu",
+    "banner": "/assets_v2/img/fighter/thumb_h/ryu.png"
+  },
+  "Mega Man": {
+    "bigLink": "4/46/Mega_Man_SSBU.png/600px-Mega_Man_SSBU.png",
+    "name": "Mega Man",
+    "banner": "/assets_v2/img/fighter/thumb_h/mega man.png"
+  },
+  "Luigi": {
+    "bigLink": "b/bb/Luigi_SSBU.png/547px-Luigi_SSBU.png",
+    "name": "Luigi",
+    "banner": "/assets_v2/img/fighter/thumb_h/luigi.png"
+  },
+  "Fox": {
+    "bigLink": "2/2f/Fox_SSBU.png/600px-Fox_SSBU.png",
+    "name": "Fox",
+    "banner": "/assets_v2/img/fighter/thumb_h/fox.png"
+  },
+  "King K. Rool": {
+    "bigLink": "b/b6/King_K._Rool_SSBU.png/600px-King_K._Rool_SSBU.png",
+    "name": "King K. Rool",
+    "banner": "/assets_v2/img/fighter/thumb_h/king k. rool.png"
+  },
+  "Isabelle": {
+    "bigLink": "2/2b/Isabelle_SSBU.png/600px-Isabelle_SSBU.png",
+    "name": "Isabelle",
+    "banner": "/assets_v2/img/fighter/thumb_h/isabelle.png"
+  },
+  "Pokémon Trainer": {
+    "bigLink": "0/0f/Pok%C3%A9mon_Trainer_SSBU.png/800px-Pok%C3%A9mon_Trainer_SSBU.png",
+    "name": "Pokémon Trainer",
+    "banner": "/assets_v2/img/fighter/thumb_h/pokemon_trainer.png"
+  },
+  "Toon Link": {
+    "bigLink": "5/56/Toon_Link_SSBU.png/569px-Toon_Link_SSBU.png",
+    "name": "Toon Link",
+    "banner": "/assets_v2/img/fighter/thumb_h/toon link.png"
+  },
+  "Ness": {
+    "bigLink": "8/82/Ness_SSBU.png/600px-Ness_SSBU.png",
+    "name": "Ness",
+    "banner": "/assets_v2/img/fighter/thumb_h/ness.png"
+  },
+  "Ridley": {
+    "bigLink": "2/27/Ridley_SSBU.png/600px-Ridley_SSBU.png",
+    "name": "Ridley",
+    "banner": "/assets_v2/img/fighter/thumb_h/ridley.png"
+  },
+  "Duck Hunt": {
+    "bigLink": "d/d8/Duck_Hunt_SSBU.png/600px-Duck_Hunt_SSBU.png",
+    "name": "Duck Hunt",
+    "banner": "/assets_v2/img/fighter/thumb_h/duck hunt.png"
+  },
+  "Rosalina & Luma": {
+    "bigLink": "1/16/Rosalina_%26_Luma_SSBU.png/600px-Rosalina_%26_Luma_SSBU.png",
+    "name": "Rosalina & Luma",
+    "banner": "/assets_v2/img/fighter/thumb_h/rosalina & luma.png"
+  },
+  "Little Mac": {
+    "bigLink": "5/53/Little_Mac_SSBU.png/600px-Little_Mac_SSBU.png",
+    "name": "Little Mac",
+    "banner": "/assets_v2/img/fighter/thumb_h/little mac.png"
+  },
+  "Sheik": {
+    "bigLink": "0/00/Sheik_SSBU.png/600px-Sheik_SSBU.png",
+    "name": "Sheik",
+    "banner": "/assets_v2/img/fighter/thumb_h/sheik.png"
+  },
+  "Captain Falcon": {
+    "bigLink": "d/da/Captain_Falcon_SSBU.png/600px-Captain_Falcon_SSBU.png",
+    "name": "Captain Falcon",
+    "banner": "/assets_v2/img/fighter/thumb_h/captain falcon.png"
+  },
+  "Cloud": {
+    "bigLink": "b/b3/Cloud_SSBU.png/600px-Cloud_SSBU.png",
+    "name": "Cloud",
+    "banner": "/assets_v2/img/fighter/thumb_h/cloud.png"
+  },
+  "Shulk": {
+    "bigLink": "0/0f/Shulk_SSBU.png/600px-Shulk_SSBU.png",
+    "name": "Shulk",
+    "banner": "/assets_v2/img/fighter/thumb_h/shulk.png"
+  },
+  "Young Link": {
+    "bigLink": "8/8a/Young_Link_SSBU.png/600px-Young_Link_SSBU.png",
+    "name": "Young Link",
+    "banner": "/assets_v2/img/fighter/thumb_h/young link.png"
+  },
+  "Bowser Jr.": {
+    "bigLink": "2/2b/Bowser_Jr._SSBU.png/600px-Bowser_Jr._SSBU.png",
+    "name": "Bowser Jr.",
+    "banner": "/assets_v2/img/fighter/thumb_h/bowser jr..png"
+  },
+  "Mewtwo": {
+    "bigLink": "d/de/Mewtwo_SSBU.png/594px-Mewtwo_SSBU.png",
+    "name": "Mewtwo",
+    "banner": "/assets_v2/img/fighter/thumb_h/mewtwo.png"
+  },
+  "Mr. Game & Watch": {
+    "bigLink": "c/cb/Mr._Game_%26_Watch_SSBU.png/600px-Mr._Game_%26_Watch_SSBU.png",
+    "name": "Mr. Game & Watch",
+    "banner": "/assets_v2/img/fighter/thumb_h/mr. game & watch.png"
+  },
+  "Mii Fighter": {
+    "bigLink": "2/26/Mii_Fighter_SSBU.png/800px-Mii_Fighter_SSBU.png",
+    "name": "Mii Fighter",
+    "banner": "/assets_v2/img/fighter/thumb_h/mii fighter.png"
+  },
+  "Lucina": {
+    "bigLink": "d/dc/Lucina_SSBU.png/600px-Lucina_SSBU.png",
+    "name": "Lucina",
+    "banner": "/assets_v2/img/fighter/thumb_h/lucina.png"
+  },
+  "R.O.B.": {
+    "bigLink": "6/60/R.O.B._SSBU.png/600px-R.O.B._SSBU.png",
+    "name": "R.O.B.",
+    "banner": "/assets_v2/img/fighter/thumb_h/r.o.b..png"
+  },
+  "Inkling": {
+    "bigLink": "2/2e/Inkling_SSBU.png/603px-Inkling_SSBU.png",
+    "name": "Inkling",
+    "banner": "/assets_v2/img/fighter/thumb_h/inkling.png"
+  },
+  "Zero Suit Samus": {
+    "bigLink": "f/f0/Zero_Suit_Samus_SSBU.png/600px-Zero_Suit_Samus_SSBU.png",
+    "name": "Zero Suit Samus",
+    "banner": "/assets_v2/img/fighter/thumb_h/zero suit samus.png"
+  },
+  "Robin": {
+    "bigLink": "8/82/Robin_SSBU.png/600px-Robin_SSBU.png",
+    "name": "Robin",
+    "banner": "/assets_v2/img/fighter/thumb_h/robin.png"
+  },
+  "Wario": {
+    "bigLink": "0/04/Wario_SSBU.png/600px-Wario_SSBU.png",
+    "name": "Wario",
+    "banner": "/assets_v2/img/fighter/thumb_h/wario.png"
+  },
+  "Lucario": {
+    "bigLink": "0/08/Lucario_SSBU.png/600px-Lucario_SSBU.png",
+    "name": "Lucario",
+    "banner": "/assets_v2/img/fighter/thumb_h/lucario.png"
+  },
+  "Pit": {
+    "bigLink": "3/38/Pit_SSBU.png/600px-Pit_SSBU.png",
+    "name": "Pit",
+    "banner": "/assets_v2/img/fighter/thumb_h/pit.png"
+  },
+  "Pichu": {
+    "bigLink": "c/c1/Pichu_SSBU.png/600px-Pichu_SSBU.png",
+    "name": "Pichu",
+    "banner": "/assets_v2/img/fighter/thumb_h/pichu.png"
+  },
+  "Peach": {
+    "bigLink": "7/74/Peach_SSBU.png/531px-Peach_SSBU.png",
+    "name": "Peach",
+    "banner": "/assets_v2/img/fighter/thumb_h/peach.png"
+  },
+  "Link": {
+    "bigLink": "8/84/Link_SSBU.png/600px-Link_SSBU.png",
+    "name": "Link",
+    "banner": "/assets_v2/img/fighter/thumb_h/link.png"
+  },
+  "Olimar": {
+    "bigLink": "b/b3/Olimar_SSBU.png/600px-Olimar_SSBU.png",
+    "name": "Olimar",
+    "banner": "/assets_v2/img/fighter/thumb_h/olimar.png"
+  },
+  "Incineroar": {
+    "bigLink": "c/c4/Incineroar_SSBU.png/600px-Incineroar_SSBU.png",
+    "name": "Incineroar",
+    "banner": "/assets_v2/img/fighter/thumb_h/incineroar.png"
+  },
+  "Roy": {
+    "bigLink": "9/9d/Roy_SSBU.png/600px-Roy_SSBU.png",
+    "name": "Roy",
+    "banner": "/assets_v2/img/fighter/thumb_h/roy.png"
+  },
+  "Dr. Mario": {
+    "bigLink": "3/3f/Dr._Mario_SSBU.png/600px-Dr._Mario_SSBU.png",
+    "name": "Dr. Mario",
+    "banner": "/assets_v2/img/fighter/thumb_h/dr. mario.png"
+  },
+  "Samus": {
+    "bigLink": "0/03/Samus_SSBU.png/600px-Samus_SSBU.png",
+    "name": "Samus",
+    "banner": "/assets_v2/img/fighter/thumb_h/samus.png"
+  },
+  "Villager": {
+    "bigLink": "a/ac/Villager_SSBU.png/600px-Villager_SSBU.png",
+    "name": "Villager",
+    "banner": "/assets_v2/img/fighter/thumb_h/villager.png"
+  },
+  "Zelda": {
+    "bigLink": "c/c8/Zelda_SSBU.png/600px-Zelda_SSBU.png",
+    "name": "Zelda",
+    "banner": "/assets_v2/img/fighter/thumb_h/zelda.png"
+  },
+  "Piranha Plant": {
+    "bigLink": "f/f0/Piranha_Plant_SSBU.png/600px-Piranha_Plant_SSBU.png",
+    "name": "Piranha Plant",
+    "banner": "/assets_v2/img/fighter/thumb_h/piranha plant.png"
+  },
+  "Ganondorf": {
+    "bigLink": "9/91/Ganondorf_SSBU.png/595px-Ganondorf_SSBU.png",
+    "name": "Ganondorf",
+    "banner": "/assets_v2/img/fighter/thumb_h/ganondorf.png"
+  },
+  "Marth": {
+    "bigLink": "e/e9/Marth_SSBU.png/600px-Marth_SSBU.png",
+    "name": "Marth",
+    "banner": "/assets_v2/img/fighter/thumb_h/marth.png"
+  },
+  "Simon": {
+    "bigLink": "9/95/Simon_SSBU.png/600px-Simon_SSBU.png",
+    "name": "Simon",
+    "banner": "/assets_v2/img/fighter/thumb_h/simon.png"
+  },
+  "Lucas": {
+    "bigLink": "8/81/Lucas_SSBU.png/600px-Lucas_SSBU.png",
+    "name": "Lucas",
+    "banner": "/assets_v2/img/fighter/thumb_h/lucas.png"
+  },
+  "Palutena": {
+    "bigLink": "6/6b/Palutena_SSBU.png/568px-Palutena_SSBU.png",
+    "name": "Palutena",
+    "banner": "/assets_v2/img/fighter/thumb_h/palutena.png"
+  },
+  "Meta Knight": {
+    "bigLink": "0/00/Meta_Knight_SSBU.png/600px-Meta_Knight_SSBU.png",
+    "name": "Meta Knight",
+    "banner": "/assets_v2/img/fighter/thumb_h/meta knight.png"
+  },
+  "Ike": {
+    "bigLink": "8/86/Ike_SSBU.png/600px-Ike_SSBU.png",
+    "name": "Ike",
+    "banner": "/assets_v2/img/fighter/thumb_h/ike.png"
+  },
+  "Corrin": {
+    "bigLink": "c/c4/Corrin_SSBU.png/600px-Corrin_SSBU.png",
+    "name": "Corrin",
+    "banner": "/assets_v2/img/fighter/thumb_h/corrin.png"
+  },
+  "Pac-Man": {
+    "bigLink": "0/03/Pac-Man_SSBU.png/600px-Pac-Man_SSBU.png",
+    "name": "Pac-Man",
+    "banner": "/assets_v2/img/fighter/thumb_h/pac-man.png"
+  },
+  "Pikachu": {
+    "bigLink": "9/93/Pikachu_SSBU.png/600px-Pikachu_SSBU.png",
+    "name": "Pikachu",
+    "banner": "/assets_v2/img/fighter/thumb_h/pikachu.png"
+  },
+  "Kirby": {
+    "bigLink": "0/07/Kirby_SSBU.png/600px-Kirby_SSBU.png",
+    "name": "Kirby",
+    "banner": "/assets_v2/img/fighter/thumb_h/kirby.png"
+  },
+  "King Dedede": {
+    "bigLink": "f/f5/King_Dedede_SSBU.png/600px-King_Dedede_SSBU.png",
+    "name": "King Dedede",
+    "banner": "/assets_v2/img/fighter/thumb_h/king dedede.png"
+  },
+  "Greninja": {
+    "bigLink": "d/da/Greninja_SSBU.png/600px-Greninja_SSBU.png",
+    "name": "Greninja",
+    "banner": "/assets_v2/img/fighter/thumb_h/greninja.png"
+  },
+  "Bowser": {
+    "bigLink": "4/49/Bowser_SSBU.png/600px-Bowser_SSBU.png",
+    "name": "Bowser",
+    "banner": "/assets_v2/img/fighter/thumb_h/bowser.png"
+  },
+  "Snake": {
+    "bigLink": "0/02/Snake_SSBU.png/492px-Snake_SSBU.png",
+    "name": "Snake",
+    "banner": "/assets_v2/img/fighter/thumb_h/snake.png"
+  },
+  "Daisy": {
+    "bigLink": "2/21/Daisy_SSBU.png/600px-Daisy_SSBU.png",
+    "name": "Daisy",
+    "banner": "/assets_v2/img/fighter/thumb_h/daisy.png"
+  },
+  "Ice Climbers": {
+    "bigLink": "1/12/Ice_Climbers_SSBU.png/600px-Ice_Climbers_SSBU.png",
+    "name": "Ice Climbers",
+    "banner": "/assets_v2/img/fighter/thumb_h/ice climbers.png"
+  },
+  "Dark Samus": {
+    "bigLink": "a/a6/Dark_Samus_SSBU.png/600px-Dark_Samus_SSBU.png",
+    "name": "Dark Samus",
+    "banner": "/assets_v2/img/fighter/thumb_h/dark samus.png"
+  }
+}

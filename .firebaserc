@@ -1,0 +1,31 @@
+{
+  "projects": {
+    "default": "eng360-ssbu",
+    "master": "eng360-ssbu",
+    "prod": "eng360-ssbu"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "env": "staging",
+        "firebase": {
+          "apiKey": "${STAGE_FIREBASE_API_KEY}",
+          "authDomain": "eng360-ssbu.firebaseapp.com",
+          "databaseURL": "https://eng360-ssbu.firebaseio.com",
+          "projectId": "eng360-ssbu",
+          "storageBucket": "eng360-ssbu.appspot.com"
+        }
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "${PROD_FIREBASE_API_KEY}",
+          "authDomain": "eng360-ssbu.firebaseapp.com",
+          "databaseURL": "https://eng360-ssbu.firebaseio.com",
+          "projectId": "eng360-ssbu",
+          "storageBucket": "eng360-ssbu.appspot.com"
+        }
+      }
+    }
+  }
+}

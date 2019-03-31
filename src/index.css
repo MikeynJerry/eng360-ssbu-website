@@ -17,7 +17,8 @@ button,
 a *,
 button *,
 *[role='button'],
-*[role='button'] * {
+*[role='button'] *,
+.clickable {
   text-decoration: none !important;
   cursor: url('assets/clickable.cur'), auto !important;
 }

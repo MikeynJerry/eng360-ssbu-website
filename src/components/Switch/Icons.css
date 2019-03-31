@@ -1,18 +1,22 @@
 .left-joycon {
   position: absolute;
-  left: calc(50vw - 350px - 133px);
+  left: calc(50vw - 350px - 133px - 10vw);
   max-width: 133px;
 }
 
 .switch {
-  position: absolute;
-  left: calc(50vw - 350px);
+  margin: 0 auto;
   max-width: 700px;
+}
+
+.full-switch {
+  margin: 0 auto;
+  max-width: 962px;
 }
 
 .right-joycon {
   position: absolute;
-  right: calc(50vw - 350px - 133px);
+  right: calc(50vw - 350px - 133px - 10vw);
   max-width: 133px;
 }
 

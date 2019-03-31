@@ -1,6 +1,7 @@
 const initialUIState = {
   rightJoyconColor: 'gray',
-  leftJoyconColor: 'gray'
+  leftJoyconColor: 'gray',
+  mode: 'handheld'
 }
 
 export const UIReducer = (state = initialUIState, action) => {
@@ -9,6 +10,8 @@ export const UIReducer = (state = initialUIState, action) => {
       return Object.assign({}, state, { rightJoyconColor: action.payload })
     case 'CHANGE_LEFT_COLOR':
       return Object.assign({}, state, { leftJoyconColor: action.payload })
+    case 'CHANGE_DISPLAY_MODE':
+      return Object.assign({}, state, { mode: action.payload })
     default:
       return state
   }

@@ -1,16 +1,16 @@
 import React from 'react'
-import './HomePage.css'
 
 const Home = ({ classes }) => (
   <div className={classes.root}>
-    <div className={[classes.circle, 'container'].join(' ')}>
-      <image className={'centerImg'} />
+    <div className={classes.circle} />
+    <div className={classes.col}>
+      <div className={classes.quad1}>Test1</div>
+      <div className={classes.quad3}>Test3</div>
     </div>
-    <div className={classes.smash} />
-    <div className={classes.spirits} />
-    <div className={classes.games} />
-    <div className={classes.vault}>Vault</div>
-    <div className={classes.online} />
+    <div className={classes.col}>
+      <div className={classes.quad2}>Test2</div>
+      <div className={classes.quad4}>Test4</div>
+    </div>
   </div>
 )
 

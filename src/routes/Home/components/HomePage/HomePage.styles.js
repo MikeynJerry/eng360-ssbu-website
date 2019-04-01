@@ -8,12 +8,6 @@ export default theme => ({
   circle: {
     position: 'absolute',
     top: 'calc(50vh - 20vh)',
-    width: '20vw',
-    height: '20vw',
-    borderRadius: '50%',
-    backgroundImage:
-      'url(https://i.kinja-img.com/gawker-media/image/upload/s--NrSaE4S8--/c_scale,f_auto,fl_progressive,pg_1,q_80,w_800/iuzt6qgk49nkz4dwr1dz.jpg)',
-    backgroundPosition: '50% 50%',
     zIndex: '100'
   },
   smash: {
@@ -22,7 +16,10 @@ export default theme => ({
     top: 64,
     height: 'calc(100vh - 35vh - 84px)',
     width: 'calc(50vw - 10px)',
-    backgroundColor: 'red'
+    backgroundColor: 'red',
+    border: 5,
+    borderColor: 'black',
+    borderStyle: 'solid'
   },
   spirits: {
     position: 'absolute',
@@ -30,7 +27,10 @@ export default theme => ({
     bottom: 0,
     height: 'calc(50vh - 64px)',
     width: '48vw',
-    backgroundColor: 'lightgreen'
+    backgroundColor: 'lightgreen',
+    border: 5,
+    borderColor: 'black',
+    borderStyle: 'solid'
   },
   online: {
     position: 'absolute',
@@ -38,7 +38,10 @@ export default theme => ({
     bottom: 0,
     height: 'calc(48vh - 64px)',
     width: '52vw',
-    backgroundColor: 'yellow'
+    backgroundColor: 'yellow',
+    border: 5,
+    borderColor: 'black',
+    borderStyle: 'solid'
   },
   vault: {
     position: 'absolute',
@@ -46,7 +49,10 @@ export default theme => ({
     bottom: 'calc(48vh - 64px)',
     height: '20vh',
     width: '52vw',
-    backgroundColor: 'pink'
+    backgroundColor: 'pink',
+    border: 5,
+    borderColor: 'black',
+    borderStyle: 'solid'
   },
   games: {
     position: 'absolute',
@@ -54,6 +60,9 @@ export default theme => ({
     top: 64,
     height: 'calc(100vh - (48vh - 64px) - 20vh - 64px)',
     width: '52vw',
-    backgroundColor: 'blue'
+    backgroundColor: 'blue',
+    border: 5,
+    borderColor: 'black',
+    borderStyle: 'solid'
   }
 })

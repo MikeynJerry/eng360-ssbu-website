@@ -1,0 +1,12 @@
+.container {
+    width: 200px;
+    height: 20px;
+}
+
+.centerImg {
+    width: 100%;
+    display: block;
+    height: auto;
+    background-image: url('https://vignette.wikia.nocookie.net/ssb/images/f/f3/SmashBall.png/revision/latest?cb=20140328222600');
+    background-repeat: no-repeat;
+}

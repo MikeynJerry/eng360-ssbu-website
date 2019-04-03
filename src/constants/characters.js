@@ -281,7 +281,7 @@ export const characters = {
     bigLink: '8/84/Link_SSBU.png/600px-Link_SSBU.png',
     name: 'Link',
     description:
-      'The Hero of Courage, Link brings his full Aresenal of remote bombs, boomerangs, and arrows to the battle, and is great at keeping opponents at bay'
+      'The Hero of Courage, Link brings his full arsenal of remote bombs, boomerangs, and arrows to the battle, and is great at keeping opponents at bay'
   },
   Olimar: {
     bigLink: 'b/b3/Olimar_SSBU.png/600px-Olimar_SSBU.png',

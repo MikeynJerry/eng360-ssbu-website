@@ -11,7 +11,9 @@ Most of the time you'll find yourself wanting to run across the stage to get a q
   `## Jumping
 
 There are two types of single-jumps that you might want to better maneuver away from your opponents. The first is a normal jump that causes ${character} to go as high as they possibly can. Press X, Y, or drag the left stick up to watch ${character} fly.`,
-  `The second is a short jump that will have ${character} jump about half the height of a normal jump. If you don't want to accidentally jump on top of a platform or if you want to trick your opponent into jumping all the way up, then short jumps are an essential skill. Press X, Y, or slightly drag the left stick up to see ${character} take a short jump. Similar to walking, this is hard to do and takes some practice, but once you figure it out it's a powerful tool in your arsenal of tricks.`,
+  `
+  
+  The second is a short jump that will have ${character} jump about half the height of a normal jump. If you don't want to accidentally jump on top of a platform or if you want to trick your opponent into jumping all the way up, then short jumps are an essential skill. Press X, Y, or slightly drag the left stick up to see ${character} take a short jump. Similar to walking, this is hard to do and takes some practice, but once you figure it out it's a powerful tool in your arsenal of tricks.`,
   `## Double Jumping
 
 When you're in the air for any reason, you can press one of the jump buttons or tilt the left stick up to jump again. Some characters, such as Kirby and Jigglypuff, can continue to jump up to 5 more times without having to hit the ground.`,

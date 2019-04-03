@@ -65,7 +65,7 @@ export const LeftJoyconIcon = ({ override, color = 'gray' }) => (
             d="M2354 77l1228 0 0 10779 -1228 0c-1257,0 -2286,-1029 -2286,-2286l0 -6207c0,-1257 1029,-2286 2286,-2286z"
           />
           <rect
-            className="fil4 str0"
+            className="fil4 str0 clickable"
             x="2735"
             y="949"
             width="566"
@@ -73,28 +73,28 @@ export const LeftJoyconIcon = ({ override, color = 'gray' }) => (
           />
           <circle className="fil5 str1" cx="1846" cy="2669" r="841" />
           <circle className="fil6 str1" cx="1846" cy="2669" r="674" />
-          <circle className="fil8 str0" cx="1915" cy="4859" r="392" />
-          <circle className="fil8 str0" cx="2793" cy="5669" r="392" />
-          <circle className="fil8 str0" cx="1920" cy="6489" r="392" />
-          <circle className="fil8 str0" cx="1084" cy="5674" r="392" />
+          <circle className="fil8 str0 clickable" cx="1915" cy="4859" r="392" />
+          <circle className="fil8 str0 clickable" cx="2793" cy="5669" r="392" />
+          <circle className="fil8 str0 clickable" cx="1920" cy="6489" r="392" />
+          <circle className="fil8 str0 clickable" cx="1084" cy="5674" r="392" />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="1915,4693 1987,4818 2059,4943 1915,4943 1770,4943 1842,4818"
           />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="2960,5669 2835,5741 2710,5813 2710,5669 2710,5525 2835,5597"
           />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="917,5674 1042,5602 1167,5530 1167,5674 1167,5819 1042,5746"
           />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="1920,6656 1848,6531 1776,6406 1920,6406 2064,6406 1992,6531"
           />
           <rect
-            className="fil8 str0"
+            className="fil8 str0 clickable"
             x="2184"
             y="7375"
             width="667"
@@ -102,7 +102,12 @@ export const LeftJoyconIcon = ({ override, color = 'gray' }) => (
             rx="53"
             ry="53"
           />
-          <circle className="fil10 str2" cx="2517" cy="7709" r="217" />
+          <circle
+            className="fil10 str2 clickable"
+            cx="2517"
+            cy="7709"
+            r="217"
+          />
           <line
             className="fil10 str1"
             x1="1846"
@@ -281,10 +286,15 @@ export const RightJoyconIcon = ({
             className={`fil3 str0 ${color}`}
             d="M22107 77l997 0c1257,0 2286,1029 2286,2286l0 6207c0,1257 -1029,2286 -2286,2286l-997 0 0 -10779z"
           />
-          <circle className="fil7 str0" cx="23061" cy="7897" r="421" />
-          <circle className="fil8" cx="23061" cy="7897" r="328" />
+          <circle
+            className="fil7 str0 clickable"
+            cx="23061"
+            cy="7897"
+            r="421"
+          />
+          <circle className="fil8 clickable" cx="23061" cy="7897" r="328" />
           <polygon
-            className="fil4 str0"
+            className="fil4 str0 clickable"
             points="22953,949 22771,949 22771,766 22570,766 22570,949 22387,949 22387,1150 22570,1150 22570,1332 22771,1332 22771,1150 22953,1150"
           />
           <circle
@@ -468,7 +478,7 @@ const FullSwitchIcon = ({
             d="M2354 77l1228 0 0 10779 -1228 0c-1257,0 -2286,-1029 -2286,-2286l0 -6207c0,-1257 1029,-2286 2286,-2286z"
           />
           <rect
-            className="fil4 str0"
+            className="fil4 str0 clickable"
             x="2735"
             y="949"
             width="566"
@@ -476,29 +486,34 @@ const FullSwitchIcon = ({
           />
           <circle className="fil5 str1" cx="1846" cy="2669" r="841" />
           <circle className="fil6 str1" cx="1846" cy="2669" r="674" />
-          <circle className="fil7 str0" cx="23061" cy="7897" r="421" />
-          <circle className="fil8 str0" cx="1915" cy="4859" r="392" />
-          <circle className="fil8 str0" cx="2793" cy="5669" r="392" />
-          <circle className="fil8 str0" cx="1920" cy="6489" r="392" />
-          <circle className="fil8 str0" cx="1084" cy="5674" r="392" />
+          <circle
+            className="fil7 str0 clickable"
+            cx="23061"
+            cy="7897"
+            r="421"
+          />
+          <circle className="fil8 str0 clickable" cx="1915" cy="4859" r="392" />
+          <circle className="fil8 str0 clickable" cx="2793" cy="5669" r="392" />
+          <circle className="fil8 str0 clickable" cx="1920" cy="6489" r="392" />
+          <circle className="fil8 str0 clickable" cx="1084" cy="5674" r="392" />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="1915,4693 1987,4818 2059,4943 1915,4943 1770,4943 1842,4818"
           />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="2960,5669 2835,5741 2710,5813 2710,5669 2710,5525 2835,5597"
           />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="917,5674 1042,5602 1167,5530 1167,5674 1167,5819 1042,5746"
           />
           <polygon
-            className="fil9 str0"
+            className="fil9 str0 clickable"
             points="1920,6656 1848,6531 1776,6406 1920,6406 2064,6406 1992,6531"
           />
           <rect
-            className="fil8 str0"
+            className="fil8 str0 clickable"
             x="2184"
             y="7375"
             width="667"
@@ -506,8 +521,13 @@ const FullSwitchIcon = ({
             rx="53"
             ry="53"
           />
-          <circle className="fil10 str2" cx="2517" cy="7709" r="217" />
-          <circle className="fil8" cx="23061" cy="7897" r="328" />
+          <circle
+            className="fil10 str2 clickable"
+            cx="2517"
+            cy="7709"
+            r="217"
+          />
+          <circle className="fil8 clickable" cx="23061" cy="7897" r="328" />
           <line
             className="fil10 str1"
             x1="1846"
@@ -537,7 +557,7 @@ const FullSwitchIcon = ({
             y2="2669"
           />
           <polygon
-            className="fil4 str0"
+            className="fil4 str0 clickable"
             points="22953,949 22771,949 22771,766 22570,766 22570,949 22387,949 22387,1150 22570,1150 22570,1332 22771,1332 22771,1150 22953,1150"
           />
           <circle

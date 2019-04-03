@@ -17,11 +17,11 @@ const cameFromBelow = ({ previousPosition }) =>
 
 const cameFromAbove = ({ previousPosition }) =>
   previousPosition === Waypoint.below
-export const MovementPage = ({ classes, sections, mode, character }) => (
+export const AttackingPage = ({ classes, sections, mode }) => (
   <div className={classes.container}>
     <div className={classes.spacer} />
     {mode === 'tabletop' && <Joycons />}
-    {sections(character).map((section, i) => (
+    {sections.map((section, i) => (
       <div>
         <Markdown className={classes.root}>{section}</Markdown>
         <Waypoint
@@ -36,4 +36,4 @@ export const MovementPage = ({ classes, sections, mode, character }) => (
   </div>
 )
 
-export default MovementPage
+export default AttackingPage

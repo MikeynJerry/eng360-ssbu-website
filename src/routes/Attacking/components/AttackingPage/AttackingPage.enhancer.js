@@ -2,13 +2,12 @@ import { compose } from 'redux'
 import { connect } from 'react-redux'
 import { withProps } from 'recompose'
 import { withStyles } from '@material-ui/core/styles'
-import styles from './MovementPage.styles'
-import { sections } from 'markdown/movement.js'
+import styles from './AttackingPage.styles'
+import { sections } from 'markdown/attacking.js'
 
 export default compose(
-  connect(({ ui: { mode }, character: { name: character } }) => ({
-    mode,
-    character
+  connect(({ ui: { mode } }) => ({
+    mode
   })),
   withProps(() => ({ sections })),
   withStyles(styles)

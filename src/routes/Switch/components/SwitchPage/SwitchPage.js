@@ -8,8 +8,9 @@ import CardActionArea from '@material-ui/core/CardActionArea'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
-import Button from '@material-ui/core/Button'
+//import Button from '@material-ui/core/Button'
 import Scrollbar from 'react-scrollbars-custom'
+import { Container, Col, Row, Button } from 'reactstrap'
 
 const leftColorsRGB = [
   'rgb(130, 130, 130)',
@@ -41,43 +42,39 @@ export const SwitchPage = ({
   mode
 }) => (
   <div className={classes.root}>
-    <Scrollbar className={classes.scrollbar}>
-      <div className={classes.leftText}>
-        <Typography variant="h3">Left Joy-Con Color</Typography>
-      </div>
-      <div className={classes.rightText}>
-        <Typography variant="h3">Right Joy-Con Color</Typography>
-      </div>
-      <div className={classes.container}>
-        <div className={classNames(classes.buttons, classes.left)}>
+    <Container fluid="true">
+      <Row className={classes.spacers}>
+        <div className={classNames(classes.paddingNone, classes.leftButtons)}>
           {leftColors.map((color, i) => (
-            <Fab
+            <Button
               key={color}
-              size="large"
+              width={'10px'}
+              height={'10px'}
               style={{ backgroundColor: leftColorsRGB[i] }}
               onClick={() => setLeftJoyconColor(color)}
               className={classes.fab}
             />
           ))}
         </div>
-
-        <FullSwitch />
-        <div className={classNames(classes.buttons, classes.right)}>
+        <div className={classNames(classes.paddingNone, classes.rightButtons)}>
           {rightColors.map((color, i) => (
-            <Fab
+            <Button
               key={color}
-              size="large"
+              width={'10px'}
+              height={'10px'}
               style={{ backgroundColor: rightColorsRGB[i] }}
               onClick={() => setRightJoyconColor(color)}
               className={classes.fab}
             />
           ))}
         </div>
-      </div>
-      <Typography variant="h3" style={{ textAlign: 'center' }}>
-        Favorite Way To Play
-      </Typography>
-      <div className={classes.cardContainer}>
+      </Row>
+      <Row>
+        <div className={classNames(classes.paddingNone, classes.switch)}>
+          <FullSwitch className={classes.paddingNone} />
+        </div>
+      </Row>
+      <div className={classNames(classes.cardContainer, classes.whitebg)}>
         <Card
           className={classNames(
             classes.card,
@@ -131,7 +128,17 @@ export const SwitchPage = ({
           </CardActions>
         </Card>
       </div>
-    </Scrollbar>
+      <div className={classes.howTo}>
+        <Typography gutterBottom variant="h4" component="h2">
+          Customize your Switch!
+        </Typography>
+        <p>
+          Do you play with Joycons attached or detached? Pink or Green? Change
+          your mode and colors here and the joycons used to display controls on
+          the action pages will use your style!
+        </p>
+      </div>
+    </Container>
   </div>
 )
 

@@ -3,7 +3,12 @@ import './homepage.css'
 import { Container, Row, Col, Button } from 'reactstrap'
 
 const Home = ({ classes }) => (
-  <div style={{ width: '100%', height: '100%', backgroundColor: 'black' }}>
+  <div
+    style={{
+      width: '100%',
+      height: 'calc(100vh - 64px)',
+      backgroundColor: 'black'
+    }}>
     <Container className={'hundoheight'}>
       <Row className={'maxpheight'}>
         <Col md="6" className={'padding-0'}>

@@ -12,6 +12,14 @@
 .full-switch {
   margin: 0 auto;
   max-width: 962px;
+  position: relative;
+}
+
+.video {
+  position: absolute;
+  left: 206.6px;
+  top: 46.9px;
+  pointer-events: none;
 }
 
 .right-joycon {
@@ -119,4 +127,47 @@
 
 .fil6 {
   fill: url(#id3);
+}
+
+.flashing-circle {
+  animation-name: circle;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.flashing-text {
+  animation-name: text;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+  0% {
+    fill: #56616a;
+  }
+
+  50% {
+    fill: #fefefe;
+    fill-rule: nonzero;
+  }
+
+  100% {
+    fill: #56616a;
+  }
+}
+
+@keyframes text {
+  0% {
+    fill: #fefefe;
+    fill-rule: nonzero;
+  }
+
+  50% {
+    fill: #56616a;
+  }
+
+  100% {
+    fill: #fefefe;
+    fill-rule: nonzero;
+  }
 }

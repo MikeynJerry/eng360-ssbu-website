@@ -2,7 +2,18 @@ import React from 'react'
 import { connect } from 'react-redux'
 import './Icons.css'
 
-export const LeftJoyconIcon = ({ override, color = 'gray' }) => (
+export const LeftJoyconIcon = ({
+  override,
+  color = 'gray',
+  stickUpSlow,
+  stickUpFast,
+  stickLeftSlow,
+  stickLeftFast,
+  stickRightSlow,
+  stickRightFast,
+  stickDownSlow,
+  stickDownFast
+}) => (
   <div className="left-joycon" style={override}>
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -220,10 +231,10 @@ export const SwitchIcon = ({ override }) => (
 export const RightJoyconIcon = ({
   override,
   color = 'gray',
-  onPressA = () => {},
-  onPressB = () => {},
-  onPressY = () => {},
-  onPressX = () => {}
+  pressA,
+  pressB,
+  pressY,
+  pressX
 }) => (
   <div className="right-joycon" style={override}>
     <svg
@@ -298,32 +309,28 @@ export const RightJoyconIcon = ({
             points="22953,949 22771,949 22771,766 22570,766 22570,949 22387,949 22387,1150 22570,1150 22570,1332 22771,1332 22771,1150 22953,1150"
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressX ? 'flashing-circle' : ''}`}
             cx="23673"
             cy="2074"
             r="392"
-            onClick={onPressX}
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressA ? 'flashing-circle' : ''}`}
             cx="24552"
             cy="2884"
             r="392"
-            onClick={onPressA}
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressB ? 'flashing-circle' : ''}`}
             cx="23678"
             cy="3704"
             r="392"
-            onClick={onPressB}
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressY ? 'flashing-circle' : ''}`}
             cx="22842"
             cy="2889"
             r="392"
-            onClick={onPressY}
           />
           <circle className="fil11 str1" cx="23720" cy="5873" r="841" />
           <circle className="fil12 str1" cx="23720" cy="5873" r="674" />
@@ -356,24 +363,20 @@ export const RightJoyconIcon = ({
             y2="5873"
           />
           <polygon
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressY ? 'flashing-text' : ''}`}
             points="22861,3019 22824,3019 22824,2907 22727,2759 22771,2759 22843,2877 22916,2759 22958,2759 22861,2907"
-            onClick={onPressY}
           />
           <polygon
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressX ? 'flashing-text' : ''}`}
             points="23673,2041 23735,1945 23778,1945 23695,2068 23789,2204 23743,2204 23672,2095 23602,2204 23557,2204 23650,2067 23566,1945 23611,1945"
-            onClick={onPressX}
           />
           <path
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressA ? 'flashing-text' : ''}`}
             d="M24502 2918l97 0 -48 -121 -49 121zm-38 95l-41 0 113 -258 32 0 112 258 -41 0 -27 -63 -122 0 -26 63z"
-            onClick={onPressA}
           />
           <path
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressB ? 'flashing-text' : ''}`}
             d="M23655 3823l45 0c31,0 64,-9 64,-45 0,-30 -21,-43 -61,-43l-48 0 0 88zm0 -119l47 0c28,0 51,-12 51,-40 0,-28 -22,-39 -57,-39l-41 0 0 79zm-36 -109l89 0c39,0 81,16 81,65 0,29 -18,49 -45,57l0 1c33,4 57,26 57,62 0,50 -43,74 -97,74l-85 0 0 -259z"
-            onClick={onPressB}
           />
           <path
             className="fil14"
@@ -388,12 +391,30 @@ export const RightJoyconIcon = ({
 const FullSwitchIcon = ({
   leftColor = 'gray',
   rightColor = 'gray',
-  onPressA = () => {},
-  onPressB = () => {},
-  onPressY = () => {},
-  onPressX = () => {}
+  pressA,
+  pressB,
+  pressY,
+  pressX,
+  stickUpSlow,
+  stickUpFast,
+  stickLeftSlow,
+  stickLeftFast,
+  stickRightSlow,
+  stickRightFast,
+  stickDownSlow,
+  stickDownFast,
+  video
 }) => (
   <div className="full-switch">
+    <video
+      className="video"
+      width={556.79}
+      height={313.58}
+      loop="loop"
+      preload="auto"
+      autoplay="autoplay">
+      <source src={video} type="video/mp4" />
+    </video>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="961.996"
@@ -561,32 +582,28 @@ const FullSwitchIcon = ({
             points="22953,949 22771,949 22771,766 22570,766 22570,949 22387,949 22387,1150 22570,1150 22570,1332 22771,1332 22771,1150 22953,1150"
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressX ? 'flashing-circle' : ''}`}
             cx="23673"
             cy="2074"
             r="392"
-            onClick={onPressX}
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressA ? 'flashing-circle' : ''}`}
             cx="24552"
             cy="2884"
             r="392"
-            onClick={onPressA}
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressB ? 'flashing-circle' : ''}`}
             cx="23678"
             cy="3704"
             r="392"
-            onClick={onPressB}
           />
           <circle
-            className="fil8 str0 clickable"
+            className={`fil8 str0 clickable ${pressY ? 'flashing-circle' : ''}`}
             cx="22842"
             cy="2889"
             r="392"
-            onClick={onPressY}
           />
           <circle className="fil11 str1" cx="23720" cy="5873" r="841" />
           <circle className="fil12 str1" cx="23720" cy="5873" r="674" />
@@ -619,24 +636,20 @@ const FullSwitchIcon = ({
             y2="5873"
           />
           <polygon
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressY ? 'flashing-text' : ''}`}
             points="22861,3019 22824,3019 22824,2907 22727,2759 22771,2759 22843,2877 22916,2759 22958,2759 22861,2907"
-            onClick={onPressY}
           />
           <polygon
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressX ? 'flashing-text' : ''}`}
             points="23673,2041 23735,1945 23778,1945 23695,2068 23789,2204 23743,2204 23672,2095 23602,2204 23557,2204 23650,2067 23566,1945 23611,1945"
-            onClick={onPressX}
           />
           <path
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressA ? 'flashing-text' : ''}`}
             d="M24502 2918l97 0 -48 -121 -49 121zm-38 95l-41 0 113 -258 32 0 112 258 -41 0 -27 -63 -122 0 -26 63z"
-            onClick={onPressA}
           />
           <path
-            className="fil13 clickable"
+            className={`fil13 clickable ${pressB ? 'flashing-text' : ''}`}
             d="M23655 3823l45 0c31,0 64,-9 64,-45 0,-30 -21,-43 -61,-43l-48 0 0 88zm0 -119l47 0c28,0 51,-12 51,-40 0,-28 -22,-39 -57,-39l-41 0 0 79zm-36 -109l89 0c39,0 81,16 81,65 0,29 -18,49 -45,57l0 1c33,4 57,26 57,62 0,50 -43,74 -97,74l-85 0 0 -259z"
-            onClick={onPressB}
           />
           <path
             className="fil14 clickable"

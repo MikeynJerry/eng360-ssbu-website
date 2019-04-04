@@ -1,6 +1,5 @@
 export const sections = [
-  `
-# Defence
+  `# Defence
 
 Defense in Smash is one of the most important yet most overlooked elements of the game. Many people make the mistake of just spamming attacks at their enemy with no real thought of what they're doing, however this just leads to bad habits and poor performance. Once you have mastered movement and attacking, you should look to implement defensive strategies to take your game to the next level.
 

@@ -2,35 +2,54 @@ import React from 'react'
 import { FullSwitch } from 'components/Switch/Icons'
 import TableSwitch from 'components/Switch'
 import Markdown from 'components/Markdown'
-import { Waypoint } from 'react-waypoint'
+import VisibilitySensor from 'react-visibility-sensor'
 import Joycons from 'components/Switch/Joycons'
 
-const Switch = ({ mode }) => (
+const Switch = ({ mode, video, flashing, ...rest }) => (
   <div>
-    {mode === 'handheld' && <FullSwitch />}
-    {mode === 'tabletop' && <TableSwitch />}
+    {mode === 'handheld' && <FullSwitch video={video} {...flashing} />}
+    {mode === 'tabletop' && <TableSwitch video={video} {...rest} />}
   </div>
 )
 
-const cameFromBelow = ({ previousPosition }) =>
-  previousPosition === Waypoint.above
+const visiblity = [false, false, false, false, false, false, false]
 
-const cameFromAbove = ({ previousPosition }) =>
-  previousPosition === Waypoint.below
-export const AttackingPage = ({ classes, sections, mode }) => (
+const onVisibilityChange = (flashing, setFlashing, i) => isVisible => {
+  if (isVisible) {
+    setFlashing(flashing)
+  } else {
+    if (visiblity[i] !== isVisible) setFlashing({})
+  }
+  visiblity[i] = isVisible
+}
+
+export const AttackingPage = ({
+  classes,
+  sections,
+  videos,
+  switches,
+  spacing,
+  flashing,
+  mode,
+  character,
+  setFlashing,
+  currentFlashing
+}) => (
   <div className={classes.container}>
     <div className={classes.spacer} />
-    {mode === 'tabletop' && <Joycons />}
-    {sections.map((section, i) => (
-      <div>
+    {mode === 'tabletop' && <Joycons {...currentFlashing} />}
+    {sections(character).map((section, i) => (
+      <div key={i}>
         <Markdown className={classes.root}>{section}</Markdown>
-        <Waypoint
-          onEnter={e => {
-            if (cameFromBelow(e)) console.log('came from below')
-            if (cameFromAbove(e)) console.log('came from above')
-          }}
-        />
-        <Switch mode={mode} />
+        {switches[i] && (
+          <VisibilitySensor
+            onChange={onVisibilityChange(flashing[i], setFlashing, i)}>
+            <Switch mode={mode} video={videos[i]} flashing={flashing[i]} />
+          </VisibilitySensor>
+        )}
+        {spacing[i] > 0 && (
+          <div style={{ width: '100%', height: spacing[i] }} />
+        )}
       </div>
     ))}
   </div>

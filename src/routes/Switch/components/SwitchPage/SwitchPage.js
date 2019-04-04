@@ -40,7 +40,7 @@ export const SwitchPage = ({
   mode
 }) => (
   <div className={classes.root}>
-    <Container fluid="true">
+    <Container fluid>
       <Row className={classes.spacers}>
         <div className={classNames(classes.paddingNone, classes.leftButtons)}>
           {leftColors.map((color, i) => (
@@ -88,32 +88,6 @@ export const SwitchPage = ({
         <Card
           className={classNames(
             classes.card,
-            mode === 'tabletop' && classes.selected
-          )}>
-          <CardActionArea>
-            <CardMedia
-              className={classes.media}
-              image="https://www.mariowiki.com/images/thumb/9/91/NS_Hardware_2.jpg/800px-NS_Hardware_2.jpg"
-              style={{ pointerEvents: 'none' }}
-            />
-            <CardContent style={{ paddingBottom: 0 }}>
-              <Typography gutterBottom variant="h5" component="h2">
-                Tabletop Mode
-              </Typography>
-            </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <MUIButton
-              size="small"
-              color="primary"
-              onClick={() => selectMode('tabletop')}>
-              Select
-            </MUIButton>
-          </CardActions>
-        </Card>
-        <Card
-          className={classNames(
-            classes.card,
             mode === 'handheld' && classes.selected
           )}>
           <CardActionArea>
@@ -133,6 +107,32 @@ export const SwitchPage = ({
               size="small"
               color="primary"
               onClick={() => selectMode('handheld')}>
+              Select
+            </MUIButton>
+          </CardActions>
+        </Card>
+        <Card
+          className={classNames(
+            classes.card,
+            mode === 'tabletop' && classes.selected
+          )}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image="https://www.mariowiki.com/images/thumb/9/91/NS_Hardware_2.jpg/800px-NS_Hardware_2.jpg"
+              style={{ pointerEvents: 'none' }}
+            />
+            <CardContent style={{ paddingBottom: 0 }}>
+              <Typography gutterBottom variant="h5" component="h2">
+                Tabletop Mode
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+          <CardActions>
+            <MUIButton
+              size="small"
+              color="primary"
+              onClick={() => selectMode('tabletop')}>
               Select
             </MUIButton>
           </CardActions>

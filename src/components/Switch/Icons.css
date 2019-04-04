@@ -2,11 +2,13 @@
   position: absolute;
   left: calc(50vw - 350px - 133px - 10vw);
   max-width: 133px;
+  top: calc((100vh - 410px) / 2);
 }
 
 .switch {
   margin: 0 auto;
   max-width: 700px;
+  position: relative;
 }
 
 .full-switch {
@@ -18,6 +20,13 @@
 .video {
   position: absolute;
   left: 206.6px;
+  top: 46px;
+  pointer-events: none;
+}
+
+.video2 {
+  position: absolute;
+  left: 71.6px;
   top: 46.9px;
   pointer-events: none;
 }
@@ -26,6 +35,7 @@
   position: absolute;
   right: calc(50vw - 350px - 133px - 10vw);
   max-width: 133px;
+  top: calc((100vh - 410px) / 2);
 }
 
 .triangle {

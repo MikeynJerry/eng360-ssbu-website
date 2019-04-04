@@ -12,8 +12,7 @@ export const LeftJoyconIcon = ({
   stickRightSlow,
   stickRightFast,
   stickDownSlow,
-  stickDownFast,
-  video
+  stickDownFast
 }) => (
   <div className="left-joycon" style={override}>
     {(stickUpFast || stickUpSlow) && (
@@ -41,43 +40,6 @@ export const LeftJoyconIcon = ({
       <div
         className={`triangle down ${stickDownFast ? 'fast' : ''} ${
           stickDownSlow ? 'slow' : ''
-        }`}
-      />
-    )}
-    <video
-      className="video"
-      width={556.79}
-      height={313.58}
-      loop="loop"
-      preload="auto"
-      autoplay="autoplay">
-      <source src={video} type="video/mp4" />
-    </video>
-    {(stickUpFast || stickUpSlow) && (
-      <div
-        className={`triangle up ${stickUpFast ? 'block long' : ''} ${
-          stickUpSlow ? 'block' : ''
-        }`}
-      />
-    )}
-    {(stickLeftFast || stickLeftSlow) && (
-      <div
-        className={`triangle left ${stickLeftFast ? 'block long' : ''} ${
-          stickLeftSlow ? 'block' : ''
-        }`}
-      />
-    )}
-    {(stickRightFast || stickRightSlow) && (
-      <div
-        className={`triangle right ${stickRightFast ? 'block long' : ''} ${
-          stickRightSlow ? 'block' : ''
-        }`}
-      />
-    )}
-    {(stickDownFast || stickDownSlow) && (
-      <div
-        className={`triangle down ${stickDownFast ? 'block long' : ''} ${
-          stickDownSlow ? 'block' : ''
         }`}
       />
     )}
@@ -219,8 +181,17 @@ export const LeftJoyconIcon = ({
   </div>
 )
 
-export const SwitchIcon = ({ override }) => (
+export const SwitchIcon = ({ override, video }) => (
   <div className="switch" style={override}>
+    <video
+      className="video2"
+      width={556.79}
+      height={313.58}
+      loop="loop"
+      preload="auto"
+      autoPlay="autoplay">
+      <source src={video} type="video/mp4" />
+    </video>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="700"
@@ -506,7 +477,7 @@ const FullSwitchIcon = ({
       height={313.58}
       loop="loop"
       preload="auto"
-      autoplay="autoplay">
+      autoPlay="autoplay">
       <source src={video} type="video/mp4" />
     </video>
     <svg

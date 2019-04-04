@@ -1,6 +1,6 @@
 import { compose } from 'redux'
 import { connect } from 'react-redux'
-import { withProps } from 'recompose'
+import { withProps, withStateHandlers } from 'recompose'
 import { withStyles } from '@material-ui/core/styles'
 import styles from './MovementPage.styles'
 import {
@@ -17,5 +17,11 @@ export default compose(
     character
   })),
   withProps(() => ({ sections, videos, switches, spacing, flashing })),
+  withStateHandlers(({ currentFlashing = {} }) => ({ currentFlashing }), {
+    setFlashing: ({ currentFlashing }) => flashing => {
+      if (flashing.id !== currentFlashing.id)
+        return { currentFlashing: flashing }
+    }
+  }),
   withStyles(styles)
 )

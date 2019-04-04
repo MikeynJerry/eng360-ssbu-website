@@ -28,6 +28,31 @@
   max-width: 133px;
 }
 
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 15px 15px 15px;
+  border-color: transparent transparent #fefefe transparent;
+}
+
+.up {
+  transform: translate(55px, 35px);
+}
+
+.left {
+  transform: rotate(-90deg) translate(-92px, 0px);
+}
+
+.right {
+  transform: rotate(90deg) translate(92px, -110px);
+}
+
+.down {
+  transform: rotate(180deg) translate(-55px, -150px);
+}
+
 .gray {
   fill: rgb(130, 130, 130) !important;
 }
@@ -129,6 +154,18 @@
   fill: url(#id3);
 }
 
+.slow {
+  animation-name: arrow;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+.fast {
+  animation-name: arrow;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
 .flashing-circle {
   animation-name: circle;
   animation-duration: 1.5s;
@@ -139,6 +176,20 @@
   animation-name: text;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes circle {

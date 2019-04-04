@@ -2,15 +2,13 @@ import React from 'react'
 import classNames from 'classnames'
 import { FullSwitch } from 'components/Switch/Icons'
 import Typography from '@material-ui/core/Typography'
-import Fab from '@material-ui/core/Fab'
 import Card from '@material-ui/core/Card'
 import CardActionArea from '@material-ui/core/CardActionArea'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
-//import Button from '@material-ui/core/Button'
-import Scrollbar from 'react-scrollbars-custom'
-import { Container, Col, Row, Button } from 'reactstrap'
+import MUIButton from '@material-ui/core/Button'
+import { Container, Row, Button } from 'reactstrap'
 
 const leftColorsRGB = [
   'rgb(130, 130, 130)',
@@ -50,7 +48,13 @@ export const SwitchPage = ({
               key={color}
               width={'10px'}
               height={'10px'}
-              style={{ backgroundColor: leftColorsRGB[i] }}
+              style={{
+                backgroundColor: leftColorsRGB[i],
+                boxShadow:
+                  leftJoyconColor === color
+                    ? '0 0 0 0.2rem rgba(130,138,145,.5)'
+                    : ''
+              }}
               onClick={() => setLeftJoyconColor(color)}
               className={classes.fab}
             />
@@ -62,7 +66,13 @@ export const SwitchPage = ({
               key={color}
               width={'10px'}
               height={'10px'}
-              style={{ backgroundColor: rightColorsRGB[i] }}
+              style={{
+                backgroundColor: rightColorsRGB[i],
+                boxShadow:
+                  rightJoyconColor === color
+                    ? '0 0 0 0.2rem rgba(130,138,145,.5)'
+                    : ''
+              }}
               onClick={() => setRightJoyconColor(color)}
               className={classes.fab}
             />
@@ -93,12 +103,12 @@ export const SwitchPage = ({
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button
+            <MUIButton
               size="small"
               color="primary"
               onClick={() => selectMode('tabletop')}>
               Select
-            </Button>
+            </MUIButton>
           </CardActions>
         </Card>
         <Card
@@ -119,12 +129,12 @@ export const SwitchPage = ({
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button
+            <MUIButton
               size="small"
               color="primary"
               onClick={() => selectMode('handheld')}>
               Select
-            </Button>
+            </MUIButton>
           </CardActions>
         </Card>
       </div>

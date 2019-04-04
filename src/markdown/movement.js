@@ -35,30 +35,31 @@ export const videos = [
 export const switches = [false, true, true, true, true, true, true]
 export const spacing = [50, 100, 100, 100, 100, 100, 100]
 export const flashing = [
-  {},
+  {}, //empty
   {
-    stickLeftFast: true,
+    stickLeftFast: true, // running
     stickRightFast: true
   },
   {
-    stickLeftSlow: true,
+    stickLeftSlow: true, // walking
     stickRightSlow: true
   },
   {
-    pressX: true,
+    pressX: true, // jumping
     pressY: true,
     stickUpFast: true
   },
   {
-    pressX: true,
+    pressX: true, // half jumping
     pressY: true,
     stickUpSlow: true
   },
   {
-    pressX: true,
-    pressY: true
+    pressX: true, // double jumping
+    pressY: true,
+    stickUpFast: true
   },
   {
-    stickDownFast: true
+    stickDownFast: true // falling
   }
 ]

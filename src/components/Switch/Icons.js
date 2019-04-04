@@ -12,9 +12,75 @@ export const LeftJoyconIcon = ({
   stickRightSlow,
   stickRightFast,
   stickDownSlow,
-  stickDownFast
+  stickDownFast,
+  video
 }) => (
   <div className="left-joycon" style={override}>
+    {(stickUpFast || stickUpSlow) && (
+      <div
+        className={`triangle up ${stickUpFast ? 'fast' : ''} ${
+          stickUpSlow ? 'slow' : ''
+        }`}
+      />
+    )}
+    {(stickLeftFast || stickLeftSlow) && (
+      <div
+        className={`triangle left ${stickLeftFast ? 'fast' : ''} ${
+          stickLeftSlow ? 'slow' : ''
+        }`}
+      />
+    )}
+    {(stickRightFast || stickRightSlow) && (
+      <div
+        className={`triangle right ${stickRightFast ? 'fast' : ''} ${
+          stickRightSlow ? 'slow' : ''
+        }`}
+      />
+    )}
+    {(stickDownFast || stickDownSlow) && (
+      <div
+        className={`triangle down ${stickDownFast ? 'fast' : ''} ${
+          stickDownSlow ? 'slow' : ''
+        }`}
+      />
+    )}
+    <video
+      className="video"
+      width={556.79}
+      height={313.58}
+      loop="loop"
+      preload="auto"
+      autoplay="autoplay">
+      <source src={video} type="video/mp4" />
+    </video>
+    {(stickUpFast || stickUpSlow) && (
+      <div
+        className={`triangle up ${stickUpFast ? 'block long' : ''} ${
+          stickUpSlow ? 'block' : ''
+        }`}
+      />
+    )}
+    {(stickLeftFast || stickLeftSlow) && (
+      <div
+        className={`triangle left ${stickLeftFast ? 'block long' : ''} ${
+          stickLeftSlow ? 'block' : ''
+        }`}
+      />
+    )}
+    {(stickRightFast || stickRightSlow) && (
+      <div
+        className={`triangle right ${stickRightFast ? 'block long' : ''} ${
+          stickRightSlow ? 'block' : ''
+        }`}
+      />
+    )}
+    {(stickDownFast || stickDownSlow) && (
+      <div
+        className={`triangle down ${stickDownFast ? 'block long' : ''} ${
+          stickDownSlow ? 'block' : ''
+        }`}
+      />
+    )}
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="133"
@@ -406,6 +472,34 @@ const FullSwitchIcon = ({
   video
 }) => (
   <div className="full-switch">
+    {(stickUpFast || stickUpSlow) && (
+      <div
+        className={`triangle up ${stickUpFast ? 'fast' : ''} ${
+          stickUpSlow ? 'slow' : ''
+        }`}
+      />
+    )}
+    {(stickLeftFast || stickLeftSlow) && (
+      <div
+        className={`triangle left ${stickLeftFast ? 'fast' : ''} ${
+          stickLeftSlow ? 'slow' : ''
+        }`}
+      />
+    )}
+    {(stickRightFast || stickRightSlow) && (
+      <div
+        className={`triangle right ${stickRightFast ? 'fast' : ''} ${
+          stickRightSlow ? 'slow' : ''
+        }`}
+      />
+    )}
+    {(stickDownFast || stickDownSlow) && (
+      <div
+        className={`triangle down ${stickDownFast ? 'fast' : ''} ${
+          stickDownSlow ? 'slow' : ''
+        }`}
+      />
+    )}
     <video
       className="video"
       width={556.79}

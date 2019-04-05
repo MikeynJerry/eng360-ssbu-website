@@ -77,36 +77,64 @@ export const switches = [
 export const spacing = [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 265]
 export const flashing = [
   {
+    pressA: true,
     id: 0
   },
   {
+    stickDownFast: true,
+    pressA: true,
     id: 1
   },
   {
+    pressA: true,
     id: 2
   },
   {
+    pressA: true,
     id: 3
   },
   {
+    pressA: true,
+    stickLeftFast: true,
+    stickRightFast: true,
     id: 4
   },
   {
+    stickLeftSlow: true,
+    stickRightSlow: true,
+    stickDownSlow: true,
+    stickUpSlow: true,
     id: 5
   },
   {
+    stickLeftFast: true,
+    stickRightFast: true,
+    stickUpFast: true,
+    stickDownFast: true,
+    pressA: true,
     id: 6
   },
   {
+    pressLeftTrigger: true,
+    pressRightTrigger: true,
     id: 7
   },
   {
+    pressLeftTrigger: true,
+    pressRightTrigger: true,
+    pressA: true,
     id: 8
   },
   {
+    stickLeftFast: true,
+    stickRightFast: true,
+    stickUpFast: true,
+    stickDownFast: true,
+    pressB: true,
     id: 9
   },
   {
+    pressB: true,
     id: 10
   }
 ]

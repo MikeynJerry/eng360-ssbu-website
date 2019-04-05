@@ -27,7 +27,7 @@ export default function createRoutes(store) {
         ].map((settings, index) => (
           <Route key={`Route-${index}`} {...settings} />
         ))}
-        /*<Route component={NotFoundRoute.component} />*/
+        <Route component={NotFoundRoute.component} />
       </Switch>
     </CoreLayout>
   )

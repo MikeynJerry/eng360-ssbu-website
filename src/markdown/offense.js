@@ -22,11 +22,11 @@ After damaging your opponent a bit, many attacks will send them flying. While yo
 
 export const videos = [
   '',
-  'https://i.imgur.com/zrOaueR.mp4', // running
-  'https://i.imgur.com/XwYo3nP.mp4', // walking
-  'https://i.imgur.com/JaRNX3z.mp4', // jumping
-  'https://i.imgur.com/xndDcGy.mp4', // half jumping
-  'https://i.imgur.com/e5d8a5E.mp4' // double jumping
+  'https://i.imgur.com/dJK7Ior.mp4', // DMG Percent
+  'https://i.imgur.com/gLfixig.mp4', // Comboing
+  'https://i.imgur.com/cpY1kT5.mp4', // Punishing
+  'https://i.imgur.com/UYyqM6a.mp4', // Juggling
+  'https://i.imgur.com/STCNBHl.mp4' // Edging
 ]
 
 export const switches = [false, true, true, true, true, true]

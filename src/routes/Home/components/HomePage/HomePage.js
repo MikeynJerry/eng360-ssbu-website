@@ -12,10 +12,24 @@ const Home = ({ classes }) => (
     <Container fluid={'true'} className={'hundoheight'}>
       <Row className={'maxpheight'}>
         <Col xs="6" className={'padding-0'}>
-          <div className={[classes.quad1, 'quad'].join(' ')} />
+          <div className={[classes.quad1, 'quad'].join(' ')}>
+            <img
+              src="https://imgur.com/oVOY4wJ.png"
+              alt={'Joystick'}
+              className={classes.quadIcon}
+            />
+            <h1 className={classes.header}>Movement</h1>
+          </div>
         </Col>
         <Col xs="6" className={'padding-0'}>
-          <div className={[classes.quad3, 'quad'].join(' ')} />
+          <div className={[classes.quad3, 'quad'].join(' ')}>
+            <img
+              src="https://imgur.com/jk4rw5K.png"
+              alt={'Fist'}
+              className={classes.quadIcon}
+            />
+            <h1 className={classes.header}>Attacks</h1>
+          </div>
         </Col>
       </Row>
       <Row>
@@ -23,10 +37,24 @@ const Home = ({ classes }) => (
       </Row>
       <Row className={'maxpheight'}>
         <Col xs="6" className={'padding-0'}>
-          <div className={[classes.quad2, 'quad'].join(' ')} />
+          <div className={[classes.quad2, 'quad'].join(' ')}>
+            <img
+              src="https://imgur.com/SsczDVl.png"
+              alt={'Shield'}
+              className={classes.quadIcon}
+            />
+            <h1 className={classes.header}>Defense</h1>
+          </div>
         </Col>
         <Col xs="6" className={'padding-0'}>
-          <div className={[classes.quad4, 'quad'].join(' ')} />
+          <div className={[classes.quad4, 'quad'].join(' ')}>
+            <img
+              src="https://imgur.com/KINn1Fn.png"
+              alt={'Sword'}
+              className={classes.quadIcon}
+            />
+            <h1 className={classes.header}>Offense</h1>
+          </div>
         </Col>
       </Row>
     </Container>

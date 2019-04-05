@@ -8,6 +8,7 @@ import MovementRoute from './Movement'
 import SwitchRoute from './Switch'
 import AttackingRoute from './Attacking'
 import DefendingRoute from './Defending'
+import OffenseRoute from './Offense'
 
 export default function createRoutes(store) {
   return (
@@ -20,12 +21,13 @@ export default function createRoutes(store) {
           MovementRoute,
           SwitchRoute,
           AttackingRoute,
-          DefendingRoute
+          DefendingRoute,
+          OffenseRoute
           /* Add More Routes Here */
         ].map((settings, index) => (
           <Route key={`Route-${index}`} {...settings} />
         ))}
-        <Route component={NotFoundRoute.component} />
+        /*<Route component={NotFoundRoute.component} />*/
       </Switch>
     </CoreLayout>
   )

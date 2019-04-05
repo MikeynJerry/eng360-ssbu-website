@@ -43,6 +43,7 @@ export const MovementPage = ({
 }) => (
   <div className={classes.container}>
     <div className={classes.spacer} />
+    {mode === 'tabletop' && <Joycons {...currentFlashing} />}
     {sections(character).map((section, i) => (
       <div key={i}>
         <Markdown className={classes.root}>{section}</Markdown>
@@ -57,7 +58,6 @@ export const MovementPage = ({
         )}
       </div>
     ))}
-    {mode === 'tabletop' && <Joycons {...currentFlashing} />}
     <Sticky>
       <Tooltip title="Back to customizing your switch" placement="top">
         <Fab

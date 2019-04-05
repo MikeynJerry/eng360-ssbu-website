@@ -9,12 +9,12 @@ const Home = ({ classes }) => (
       height: 'calc(100vh - 64px)',
       backgroundColor: 'black'
     }}>
-    <Container className={'hundoheight'}>
+    <Container fluid={'true'} className={'hundoheight'}>
       <Row className={'maxpheight'}>
-        <Col md="6" className={'padding-0'}>
+        <Col xs="6" className={'padding-0'}>
           <div className={[classes.quad1, 'quad'].join(' ')} />
         </Col>
-        <Col md="6" className={'padding-0'}>
+        <Col xs="6" className={'padding-0'}>
           <div className={[classes.quad3, 'quad'].join(' ')} />
         </Col>
       </Row>
@@ -22,10 +22,10 @@ const Home = ({ classes }) => (
         <Button className={'absbetween'} />
       </Row>
       <Row className={'maxpheight'}>
-        <Col md="6" className={'padding-0'}>
+        <Col xs="6" className={'padding-0'}>
           <div className={[classes.quad2, 'quad'].join(' ')} />
         </Col>
-        <Col md="6" className={'padding-0'}>
+        <Col xs="6" className={'padding-0'}>
           <div className={[classes.quad4, 'quad'].join(' ')} />
         </Col>
       </Row>

@@ -54,7 +54,7 @@ export const videos = [
 ]
 
 export const switches = [true, true, true, true, true, true, true, false]
-export const spacing = [100, 100, 0, 0, 0, 100, 0, 0]
+export const spacing = [0, 0, 0, 0, 0, 0, 0, 0]
 export const flashing = [
   {
     pressLeftTrigger: true,

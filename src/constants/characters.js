@@ -81,7 +81,7 @@ export const characters = {
     bigLink: 'c/c9/Donkey_Kong_SSBU.png/600px-Donkey_Kong_SSBU.png',
     name: 'Donkey Kong',
     description:
-      'Always ready to bring it on, and with a love of bananas, Donkey Kong has powerful attacks and range, but isn’t very quick'
+      'This banana-loving gorilla is always ready to bring it on! His attacks have high power and a long reach, but low speed'
   },
   Ryu: {
     bigLink: '6/61/Ryu_SSBU.png/600px-Ryu_SSBU.png',
@@ -105,7 +105,7 @@ export const characters = {
     bigLink: '2/2f/Fox_SSBU.png/600px-Fox_SSBU.png',
     name: 'Fox',
     description:
-      'Fox is the leader of StarFox, and intergalactic pilot. He is fast and powerful but requires a high level of precision to be used to his full potential'
+      'Fox is the leader of StarFox, and an intergalactic mercenary arwing pilot. He is fast and powerful, but requires a a lot of precise play to master'
   },
   'King K. Rool': {
     bigLink: 'b/b6/King_K._Rool_SSBU.png/600px-King_K._Rool_SSBU.png',
@@ -209,7 +209,7 @@ export const characters = {
       'c/cb/Mr._Game_%26_Watch_SSBU.png/600px-Mr._Game_%26_Watch_SSBU.png',
     name: 'Mr. Game & Watch',
     description:
-      'The only 2-Dimensional character on the roster, Mr. Game & Watch is hard to punish when he misses attacks and is surprisingly fast'
+      'The only 2-Dimensional Character in the game, his Judge attack has numbers from 1-9, and the higher the random number, the higher the damage'
   },
   'Mii Fighter': {
     bigLink: '2/26/Mii_Fighter_SSBU.png/800px-Mii_Fighter_SSBU.png',

@@ -1,4 +1,10 @@
 import React from 'react'
+import Fab from '@material-ui/core/Fab'
+import ArrowBackIcon from '@material-ui/icons/ArrowBack'
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
+import { Link } from 'react-router-dom'
+import Tooltip from '@material-ui/core/Tooltip'
+import Sticky from 'react-stickynode'
 import { FullSwitch } from 'components/Switch/Icons'
 import TableSwitch from 'components/Switch'
 import Markdown from 'components/Markdown'
@@ -52,6 +58,28 @@ export const AttackingPage = ({
         )}
       </div>
     ))}
+    <Sticky>
+      <Tooltip title="Back to movement" placement="top">
+        <Fab
+          color="primary"
+          style={{ position: 'absolute', bottom: 25, left: 25 }}
+          component={Link}
+          to="/movement">
+          <ArrowBackIcon />
+        </Fab>
+      </Tooltip>
+    </Sticky>
+    <Sticky>
+      <Tooltip title="Learn about defending" placement="top">
+        <Fab
+          color="primary"
+          style={{ position: 'absolute', bottom: 25, right: 25 }}
+          component={Link}
+          to="/defending">
+          <ArrowForwardIcon />
+        </Fab>
+      </Tooltip>
+    </Sticky>
   </div>
 )
 

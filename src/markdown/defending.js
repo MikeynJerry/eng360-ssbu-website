@@ -21,7 +21,7 @@ For this reason, it is best that you don't hold your shield up for long periods 
 While you are using your shield, you can roll by pressing the control stick in the direction you want to roll while only holding one of the shield buttons.While you are rolling you will be invulnerable to attacks and you will be able to move through other characters.
 `,
   `
-This is best used to create spacing or to get behind your opponent while they are attacking you. If used in succession however, the rolls will become slower and less effective.For this reason, it is best to not use several consecutive rolls and only use them when necessary.
+This is best used to create spacing or to get behind your opponent while they are attacking you. If used in succession however, the rolls will become slower and less effective. For this reason, it is best to not use several consecutive rolls and only use them when necessary.
 
 ## Parries
 

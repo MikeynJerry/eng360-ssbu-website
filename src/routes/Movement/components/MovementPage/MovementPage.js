@@ -1,4 +1,10 @@
 import React from 'react'
+import Fab from '@material-ui/core/Fab'
+import ArrowBackIcon from '@material-ui/icons/ArrowBack'
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward'
+import { Link } from 'react-router-dom'
+import Tooltip from '@material-ui/core/Tooltip'
+import Sticky from 'react-stickynode'
 import { FullSwitch } from 'components/Switch/Icons'
 import TableSwitch from 'components/Switch'
 import Markdown from 'components/Markdown'
@@ -37,7 +43,6 @@ export const MovementPage = ({
 }) => (
   <div className={classes.container}>
     <div className={classes.spacer} />
-    {mode === 'tabletop' && <Joycons {...currentFlashing} />}
     {sections(character).map((section, i) => (
       <div key={i}>
         <Markdown className={classes.root}>{section}</Markdown>
@@ -52,6 +57,29 @@ export const MovementPage = ({
         )}
       </div>
     ))}
+    {mode === 'tabletop' && <Joycons {...currentFlashing} />}
+    <Sticky>
+      <Tooltip title="Back to customizing your switch" placement="top">
+        <Fab
+          color="primary"
+          style={{ position: 'absolute', bottom: 25, left: 25 }}
+          component={Link}
+          to="/switch">
+          <ArrowBackIcon />
+        </Fab>
+      </Tooltip>
+    </Sticky>
+    <Sticky>
+      <Tooltip title="Learn about attacking" placement="top">
+        <Fab
+          color="primary"
+          style={{ position: 'absolute', bottom: 25, right: 25 }}
+          component={Link}
+          to="/attacking">
+          <ArrowForwardIcon />
+        </Fab>
+      </Tooltip>
+    </Sticky>
   </div>
 )
 

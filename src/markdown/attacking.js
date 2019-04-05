@@ -20,7 +20,7 @@ This attack can be performed while on the ground, hanging on a ledge, or after h
   `
 ## Aerial Attacks
 
-These attacks are performed by pressing A while not on the ground.There are Neutral Air Attacks as well as Directional Air Attacks.
+These attacks are performed by pressing A while not on the ground. There are Neutral Air Attacks as well as Directional Air Attacks.
 `,
   `
 ## Dash Attacks
@@ -40,7 +40,7 @@ These attacks are performed while on the ground by pressing a directional button
   `
 ## Grabs
 
-Grabs can be performed by getting close to an enemy and pressing the R or L bumper.In this state, your opponent will be unable to move for a short period of time, and this time gets longer the more damage your opponent has taken.You can also press R, L, or A to attack your opponent while they are stuck in this way.
+Grabs can be performed by getting close to an enemy and pressing the R or L bumper. In this state, your opponent will be unable to move for a short period of time, and this time gets longer the more damage your opponent has taken. You can also press R, L, or A to attack your opponent while they are stuck in this way.
 `,
   `
 ## Throws
@@ -50,12 +50,12 @@ Throws can be performed only while your opponent is grabbed by pressing A in con
   `
 ## Special Moves
 
-Each character has special moves that have interesting and highly varied properties relating to the games they originated from.These attacks can be performed by pressing B while either: using no directional inputs, holding left or right, holding down, or holding up.
+Each character has special moves that have interesting and highly varied properties relating to the games they originated from. These attacks can be performed by pressing B while either: using no directional inputs, holding left or right, holding down, or holding up.
 `,
   `
 ## Final Smash
 
-These extremely powerful finishing moves can only be performed if you have broken a smash ball, or have filled up your final smash meter.You will be able to tell if you can use your final smash if your character is surrounded by bright light and the rest of the screen is darker than normal.To use a final smash, simply press B when you are surrounded by energy.There are many different final smashes with wildly different effects.Be sure to mess around with them and see what works!
+These extremely powerful finishing moves can only be performed if you have broken a smash ball, or have filled up your final smash meter. Your final smash meter charges when you take or deal damage, and also charges slowly over time. You will be able to tell if you can use your final smash if your character is surrounded by bright light and the rest of the screen is darker than normal. To use a final smash, simply press B when you are surrounded by energy. There are many different final smashes with wildly different effects. Be sure to mess around with them and see what works!
 `
 ]
 

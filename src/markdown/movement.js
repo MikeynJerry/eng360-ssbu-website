@@ -19,7 +19,7 @@ There are two types of single-jumps that you might want to better maneuver away 
 When you're in the air for any reason, you can press one of the jump buttons or tilt the left stick up to jump again. Some characters, such as Kirby and Jigglypuff, can continue to jump up to 5 more times without having to hit the ground.`,
   `## Falling Down
 
-Most stages have a couple of platforms that are considered to be &quot;soft&quot;. That means that not only can you jump on top of them, you can also fall through them and drop to whatever is below. Whenever you're on top of one of these platforms, simply pull the control stick on your left joycon downwards to fall through it.`
+Most stages have a couple of platforms that are considered to be "soft". That means that not only can you jump on top of them, you can also fall through them and drop to whatever is below. Whenever you're on top of one of these platforms, simply pull the control stick on your left joycon downwards to fall through it.`
 ]
 
 export const videos = [

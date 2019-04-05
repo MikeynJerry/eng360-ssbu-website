@@ -120,6 +120,10 @@ export const flashing = [
     id: 7
   },
   {
+    stickLeftFast: true,
+    stickRightFast: true,
+    stickUpFast: true,
+    stickDownFast: true,
     pressLeftTrigger: true,
     pressRightTrigger: true,
     pressA: true,

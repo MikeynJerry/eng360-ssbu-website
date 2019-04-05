@@ -70,7 +70,8 @@ export const videos = [
   'https://i.imgur.com/GOM93i7.mp4', // Grabs
   'https://i.imgur.com/F3dMb8c.mp4', // Throws SMash
   'https://i.imgur.com/qyy60Vp.mp4', // Special Moves
-  '']
+  'https://i.imgur.com/OMQIfdK.mp4'
+]
 
 export const switches = [
   true,

@@ -1,5 +1,5 @@
 export const sections = character => [
-  `# Attacks
+  `# Attacking
 
 Attacks are any method of punching, blasting, or slashing your opponent's character, which will cause their damage percent to go up. Attacking not only helps you to raise your opponents damage percent (making them easier to knock off the screen), but it can also finish them off, stun them, trip them, or otherwise make life harder on your opponent. However, there are a variety of different ways to attack in this game.
 

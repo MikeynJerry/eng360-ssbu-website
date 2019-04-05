@@ -12,7 +12,8 @@ export const LeftJoyconIcon = ({
   stickRightSlow,
   stickRightFast,
   stickDownSlow,
-  stickDownFast
+  stickDownFast,
+  pressLeftTrigger
 }) => (
   <div className="left-joycon" style={override}>
     {(stickUpFast || stickUpSlow) && (
@@ -96,7 +97,9 @@ export const LeftJoyconIcon = ({
       <g id="Capa_x0020_1">
         <g id="_2497485212656">
           <path
-            className="fil0 str0"
+            className={`fil0 str0 clickable ${
+              pressLeftTrigger ? 'flashing-bumper' : ''
+            }`}
             d="M0 2317c0,-1274 1043,-2317 2317,-2317l0 2317 -2317 0z"
           />
           <path
@@ -271,7 +274,8 @@ export const RightJoyconIcon = ({
   pressA,
   pressB,
   pressY,
-  pressX
+  pressX,
+  pressRightTrigger
 }) => (
   <div className="right-joycon" style={override}>
     <svg
@@ -327,7 +331,9 @@ export const RightJoyconIcon = ({
       <g id="Capa_x0020_1">
         <g id="_2497485212656">
           <path
-            className="fil0 str0"
+            className={`fil0 str0 clickable ${
+              pressRightTrigger ? 'flashing-bumper' : ''
+            }`}
             d="M25453 2317c0,-1274 -1043,-2317 -2317,-2317l0 2317 2317 0z"
           />
           <path
@@ -432,6 +438,8 @@ const FullSwitchIcon = ({
   pressB,
   pressY,
   pressX,
+  pressLeftTrigger,
+  pressRightTrigger,
   stickUpSlow,
   stickUpFast,
   stickLeftSlow,
@@ -533,11 +541,15 @@ const FullSwitchIcon = ({
       <g id="Capa_x0020_1">
         <g id="_2497485212656">
           <path
-            className="fil0 str0"
+            className={`fil0 str0 clickable ${
+              pressRightTrigger ? 'flashing-bumper' : ''
+            }`}
             d="M25453 2317c0,-1274 -1043,-2317 -2317,-2317l0 2317 2317 0z"
           />
           <path
-            className="fil0 str0"
+            className={`fil0 str0 clickable ${
+              pressLeftTrigger ? 'flashing-bumper' : ''
+            }`}
             d="M0 2317c0,-1274 1043,-2317 2317,-2317l0 2317 -2317 0z"
           />
           <path

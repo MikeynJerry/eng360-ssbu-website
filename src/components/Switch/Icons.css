@@ -176,6 +176,12 @@
   animation-iteration-count: infinite;
 }
 
+.flashing-bumper {
+  animation-name: bumper;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
 .flashing-circle {
   animation-name: circle;
   animation-duration: 1.5s;
@@ -186,6 +192,21 @@
   animation-name: text;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+}
+
+@keyframes bumper {
+  0% {
+    fill: #30363a;
+  }
+
+  50% {
+    fill: #fefefe;
+    fill-rule: nonzero;
+  }
+
+  100% {
+    fill: #30363a;
+  }
 }
 
 @keyframes arrow {

@@ -59,7 +59,18 @@ These extremely powerful finishing moves can only be performed if you have broke
 `
 ]
 
-export const videos = ['', '', '', '', '', '', '', '', '', '', '']
+export const videos = [
+  'https://i.imgur.com/wdGPNqZ.mp4', // Neutral Attacks
+  'https://i.imgur.com/dyAkP7c.mp4', // Crouching Attacks
+  'https://i.imgur.com/f2EAtLx.mp4', // Get Up Attacks
+  'https://i.imgur.com/4CYblv9.mp4', // Aerial Attacks
+  'https://i.imgur.com/J6MluKQ.mp4', // Dash Attacks
+  'https://i.imgur.com/5BQsgk1.mp4', // Tilt Attacks
+  'https://i.imgur.com/54Y64eJ.mp4', // Smash Attacks
+  'https://i.imgur.com/GOM93i7.mp4', // Grabs
+  'https://i.imgur.com/F3dMb8c.mp4', // Throws SMash
+  'https://i.imgur.com/qyy60Vp.mp4', // Special Moves
+  '']
 
 export const switches = [
   true,

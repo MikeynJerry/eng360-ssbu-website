@@ -38,7 +38,9 @@ const Home = ({ classes }) => (
       </Row>
       <Row>
         <a href="/characters">
-          <Button className={'absbetween'}><h1>Choose a Fighter!</h1></Button>
+          <Button className={'absbetween'}>
+            <h1>Choose a Fighter!</h1>
+          </Button>
         </a>
       </Row>
       <Row className={'maxpheight'}>

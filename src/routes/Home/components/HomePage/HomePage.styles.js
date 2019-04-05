@@ -24,22 +24,22 @@ export default theme => ({
   quad1: {
     backgroundColor: 'red',
     backgroundImage:
-      'url(https://www.ssbwiki.com/images/thumb/0/02/SSBU-Smashville.png/1600px-SSBU-Smashville.png)'
+      'url(https://www.ssbwiki.com/images/thumb/f/ff/Sidestep_SSB4.JPG/800px-Sidestep_SSB4.JPG)'
   },
   quad2: {
     backgroundColor: 'green',
     backgroundImage:
-      'url(https://cdn.stockphotosecrets.com/wp-content/uploads/2018/08/hide-the-pain-stockphoto-840x560.jpg)'
+      'url(https://www.ssbwiki.com/images/thumb/5/5b/BowserShieldSSB4.png/800px-BowserShieldSSB4.png)'
   },
   quad3: {
     backgroundColor: 'blue',
     backgroundImage:
-      'url(http://www.apimages.com/Images/Ap_Creative_Stock_Header.jpg)'
+      'url(https://vignette.wikia.nocookie.net/ssb/images/6/67/Foxupatyourside.jpg/revision/latest?cb=20141017055911)'
   },
   quad4: {
     backgroundColor: 'yellow',
     backgroundImage:
-      'url(https://static.boredpanda.com/blog/wp-content/uploads/2017/12/funny-weird-wtf-stock-photos-1-5a39121d2fd9b__700.jpg)'
+      'url(https://www.ssbwiki.com/images/thumb/c/c2/FoxSSB4DashAttack.png/1200px-FoxSSB4DashAttack.png)'
   },
   header: {
     position: 'absolute',

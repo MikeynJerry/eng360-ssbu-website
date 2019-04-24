@@ -9,7 +9,7 @@ const Home = ({ classes }) => (
       height: 'calc(100vh - 64px)',
       backgroundColor: 'black'
     }}>
-    <Container fluid={'true'} className={'hundoheight'}>
+    <Container fluid className={'hundoheight'}>
       <Row className={'maxpheight'}>
         <Col xs="6" className={'padding-0'}>
           <a href="/movement">
